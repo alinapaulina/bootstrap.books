@@ -1,7 +1,7 @@
 /* GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Questrial&family=Rajdhani&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
 header, section {
@@ -49,6 +49,7 @@ header .nav-item:last-child{
 }
 header .nav-item {
     padding: 0.9em;
+   
 }
 header .navbar-brand {
     padding-left: 8rem;
@@ -56,9 +57,13 @@ header .navbar-brand {
 header .nav-link:hover {
 color: black;
 }
+header .navbar-nav {
+    margin-left: 30em;
+}
 header .row .col-md-5 {
     padding: 4.2vmin 1vmin;    
 }
+
 header .row .col-md-7 {
     padding: 22vmin 1vmin;
     padding-bottom: 35vmin;
@@ -86,6 +91,7 @@ header .container .col-md-7 button {
     border: 30px;
     font-weight: bold;
 }
+
 /*SECTION 1*/
 .section-1 {
     padding: 20vmin 0vmin;
@@ -258,6 +264,7 @@ font-family: var(--Questrial);
     border-radius: 340px;
     width: 60%;
 }
+
 /*FOOTER*/
 footer {
     background: rgba(0, 0, 0, 0.815);
@@ -282,4 +289,13 @@ footer .column i {
 }
 footer .column i + i {
     padding: 0 0.5em;
+}
+/* STICKY CLASS */
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
 }
